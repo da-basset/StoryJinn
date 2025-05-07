@@ -7,4 +7,4 @@ Check django works/version: 'python3 -m django --version'
 
 Settings up DB:
 python3 manage.py migrate
-python manage.py makemigrations
+python3 manage.py makemigrations
