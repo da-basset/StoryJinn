@@ -1,0 +1,6 @@
+Install PIP: '-m ensurepip --upgrade'
+Create virtual env: 'python3 -m venv $NAME'
+Set venv: 'source $NAME/bin/activate'
+Install django 'python3 -m pip install Django'
+Update pip3: 'pip3 install --upgrade pip'
+Check django works/version: 'python3 -m django --version'
