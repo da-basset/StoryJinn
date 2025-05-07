@@ -4,3 +4,7 @@ Set venv: 'source $NAME/bin/activate'
 Install django 'python3 -m pip install Django'
 Update pip3: 'pip3 install --upgrade pip'
 Check django works/version: 'python3 -m django --version'
+
+Settings up DB:
+python3 manage.py migrate
+python manage.py makemigrations
