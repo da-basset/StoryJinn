@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Example</title>
+    <style>
+        /* Add some basic styling to the dropdowns */
+        select {
+            width: 150px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        /* Make the large text box span 60% of the screen width and add a new line under it */
+        #large-text-box {
+            width: calc(40vw - 20px);
+            height: 50vh;
+            overflow-y: auto;
+            padding: 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #large-text-box label {
+            display: block;
+        }
+        
+        /* Add styling to the submit button */
+        .submit-button {
+            width: 150px;
+            height: 40px;
+            padding: 10px;
+            font-size: 16px;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Dropdown Example</h2>
+
+<!-- First Dropdown (Reading Level) -->
+<label for="reading-level">Reading Level:</label>
+<select id="reading-level" name="reading-level">
+    <option value="">Select an option</option>
+    <option value="5-10">5-10</option>
+    <option value="11-15">11-15</option>
+    <option value="16-20">16-20</option>
+    <option value="21-99">21-99</option>
+</select>
+
+<!-- Second Dropdown (Prompt Selection) -->
+<label for="prompt-selection">Prompt Selection:</label>
+<select id="prompt-selection" name="prompt-selection">
+    <option value="">Select an option</option>
+    <option value="prompt1">Prompt 1</option>
+    <option value="prompt2">Prompt 2</option>
+    <option value="prompt3">Prompt 3</option>
+</select>
+
+<!-- Third Dropdown (Tenses) -->
+<label for="tenses">Tenses:</label>
+<select id="tenses" name="tenses">
+    <option value="">Select an option</option>
+    <option value="present">Present</option>
+    <option value="past">Past</option>
+    <option value="future">Future</option>
+</select>
+
+<!-- Fourth Dropdown (Include Vosotros?) -->
+<label for="vosotros">Include Vosotros?</label>
+<select id="vosotros" name="vosotros">
+    <option value="">Select an option</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+</select>
+
+<!-- Fifth Dropdown (Region) -->
+<label for="region">Region:</label>
+<select id="region" name="region">
+    <option value="">Select an option</option>
+    <option value="europe">Europe</option>
+    <option value="americas">Americas</option>
+</select>
+
+<!-- Submit Button -->
+<button class="submit-button" type="submit">Submit</button>
+
+<!-- Large Text Box -->
+<p id="large-text-box-label">Large Text Box:</p>
+<textarea id="large-text-box" rows="10"></textarea>
+
+</body>
+</html>
