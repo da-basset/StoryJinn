@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('StoryJinnator', '0012_alter_reading_prompt_prompt_id'),
+        ('StoryJinnator', '0001_initial'),
     ]
 
     operations = [
